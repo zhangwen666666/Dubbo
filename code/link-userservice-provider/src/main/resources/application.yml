@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+dubbo:
+  application:
+    name: link-userservice-provider # 指定服务提供者的名称
+  # 访问服务的协议
+  protocol:
+    name: dubbo # dubbo官方推荐的是dubbo协议
+    port: 20880 # 端口号默认为20880
+  scan:
+    base-packages: com.zw.service # 扫描服务提供者包路径
+  registry:
+    address: N/A # 关闭注册中心

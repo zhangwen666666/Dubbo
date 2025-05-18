@@ -1,0 +1,12 @@
+# application.yml
+server:
+  port: 8080
+dubbo:
+  application:
+    name: user-service-consumer
+  protocol:
+    name: dubbo
+    port: 20881  # 修改为其他未被占用的端口（如 20881）
+  registry:
+    address: N/A  # 关闭注册中心
+
