@@ -7,8 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="link-userservice-provider" />
+        <module name="zk-interface" />
+        <module name="link-consumer2" />
         <module name="link-consumer" />
+        <module name="link-userservice-provider" />
+        <module name="zk-provider" />
+        <module name="zk-consumer" />
+        <module name="link-interface" />
+        <module name="link-provider2" />
       </profile>
     </annotationProcessing>
   </component>

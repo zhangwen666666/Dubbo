@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+dubbo:
+  application:
+    name: "link-provider2" # 服务名称
+  protocol:
+    port: 20881 # 端口号
+    name: "dubbo" # 协议名称
+  scan:
+    base-packages: com.zw.service.impl # 扫描包
+  registry:
+    address: N/A
+
+

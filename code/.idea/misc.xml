@@ -9,6 +9,13 @@
       <list>
         <option value="$PROJECT_DIR$/link-userservice-provider/pom.xml" />
         <option value="$PROJECT_DIR$/link-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/linke-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/link-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/link-provider2/pom.xml" />
+        <option value="$PROJECT_DIR$/link-consumer2/pom.xml" />
+        <option value="$PROJECT_DIR$/zk-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/zk-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/zk-consumer/pom.xml" />
       </list>
     </option>
   </component>

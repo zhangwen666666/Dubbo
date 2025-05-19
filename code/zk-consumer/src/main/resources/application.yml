@@ -1,0 +1,11 @@
+server:
+  port: 8082
+
+dubbo:
+  application:
+    name: zk-consumer
+  protocol:
+    name: dubbo
+    port: 20882
+  registry:
+    address: zookeeper://127.0.0.1:2181
