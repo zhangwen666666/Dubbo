@@ -9,4 +9,8 @@ dubbo:
     port: 20881
   registry:
     address: zookeeper://127.0.0.1:2181
-
+    check: false
+  config-center:
+    check: false
+  consumer:
+    check: false
